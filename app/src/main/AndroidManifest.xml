@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tzw.textview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE "/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".datastorage.FileActivity" />
+        <activity android:name=".datastorage.SharedPreferencesActivity" />
+        <activity android:name=".datastorage.DataStorageActivity" />
+        <activity android:name=".ObjectAnimActivityActivity" />
+        <activity android:name=".HandActivity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".fragment.ContainerActivity" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".PopActivity" />
+        <activity android:name=".CustomDialogActivity" />
+        <activity android:name=".ProgressVeiwActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DiaLogActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".WebVeiwActivity" />
+        <activity android:name=".recycleview.PuRecyclerViewActivity" />
+        <activity android:name=".recycleview.GridRecyclerViewActivity" />
+        <activity android:name=".recycleview.HorRecyclerViewActivity" />
+        <activity android:name=".recycleview.LinearRecycleViewActivity" />
+        <activity android:name=".recycleview.RecycleviewActivity" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".imageActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".ListView.ListViewActivity" />
+        <activity android:name=".UIActivity" />
+        <activity android:name=".TestActivity" />
+        <activity
+            android:name=".Jump.AActivity"
+            android:label="A" />
+        <activity
+            android:name=".Jump.BActivity"
+            android:label="B" />
+    </application>
+
+</manifest>
